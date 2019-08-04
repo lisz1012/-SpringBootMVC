@@ -28,7 +28,7 @@ public class MainController {
 	}
 	
 	@GetMapping("/list/{id}") // 访问: http://localhost/city/list/1 
-	public String list(@PathVariable("id") Integer id, Model model) {
+	public String list(@PathVariable("id") Integer id, Model model) { //id变量名跟上面{}里面的一样的话可以不写("id")
 		City city = cityService.findById(id);
 		model.addAttribute("city", city);
 		return "one";
