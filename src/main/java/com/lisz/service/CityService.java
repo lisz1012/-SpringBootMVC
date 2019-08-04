@@ -18,5 +18,9 @@ public class CityService {
 		List<City> list = cityDao.findAll();
 		return list;
 	}
+
+	public City findById(Integer id) {
+		return cityDao.getOne(id);
+	}
 	
 }
