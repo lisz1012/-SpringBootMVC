@@ -1,6 +1,6 @@
 # -SpringBootMVC
 
-###MyBatis-Plus最基本应用  
+### MyBatis-Plus最基本应用  
 1.引入依赖（mvn）：  
 		`<dependency>  
     		<groupId>org.apache.commons</groupId>  
